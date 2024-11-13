@@ -1,0 +1,382 @@
+body{
+     overflow-x: hidden;
+
+}
+@media (min-width:1000px){
+    body{
+        background-image: url(img/history-backg.jpg);
+        background-attachment: fixed;
+        
+
+    }
+}
+.img-md{
+    position:relative;
+    top: 20px;
+    
+
+}
+
+.nav-bar-lg{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: white;  
+  
+    
+}
+.stickynav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-bar-sl{
+    height:60px;
+    align-items: center;
+    display: flex;
+    background: white;
+
+}
+.logocafe{
+    width: 50px;
+    height: 75px;
+    margin-left:50px;
+    cursor: pointer;
+}
+@media (max-width:1150px){
+    .logocafe{
+        margin:30px;
+
+    }
+}
+
+.nav-bar-lg table{
+    color:rgb(245, 93, 93);
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 30px;
+   
+    
+    
+}
+.nav-bar-lg th{
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.nav-bar-lg th:hover{
+    color: rgb(255, 0, 0);
+}
+@media (max-width:1150px){
+    .nav-bar-lg table{
+    font-size: 10px;
+    margin-left: -10px;
+    
+    }
+}
+
+
+@media (max-width:880px){
+    .nav-bar-lg th{
+   padding-left: 10px;}
+}
+.cart{
+    width:40px;
+}
+.nav-lg-right{
+
+    right: 30px;
+    height: 30px;
+
+}
+.nav-lg-right img{
+    height:20px ;
+    padding-left: 25px;
+    cursor: pointer;
+   
+}
+@media (max-width:880px){
+    .nav-lg-right img{
+   padding-left: 10px;}
+}
+@media (max-width:880px){
+    .nav-lg-right{
+  right: 20px;}
+}
+.red-circle{
+    width: 35px;
+    height: 35px;
+    border: solid 2px red;
+    border-radius: 20px;
+    position: absolute;
+    left:15px;
+    cursor: pointer;
+}
+.logo-sl{
+    width: 35px;
+    position: absolute;
+    left: 48%;
+    cursor: pointer;
+
+}
+.serch-sl{
+    width: 30px;
+    position: absolute;
+    right: 15px;
+}
+
+.clg{
+    margin: 0px;
+    padding: 0px;
+}
+#detail p{
+    color: white;
+    margin-bottom: 0px;
+    padding: 15px 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}  
+#detail{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 10px;
+    font-weight: 700;
+    
+
+}
+
+
+.red-button{
+     display:block;
+     position: relative;
+     top:-55px;
+     text-align: center;   
+
+}
+.red-button p{
+    background: rgb(217, 81, 81);
+    display:inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.red-button p:hover{
+    background: rgb(253, 78, 78);
+}
+
+.history-text{
+  
+   text-align: center;
+   width: 100%;
+   padding: 80px;
+   position: relative;
+   top: -56px;
+   height: 350px;
+   
+   
+}
+.history-text img{
+    width: 400px;   
+ 
+}
+.read{
+    background: rgb(217, 81, 81);
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.read:hover{
+    background: rgb(250, 107, 107);
+}
+@media (max-width:1000px){
+    .history-text{
+        background-image: url(img/history-backg.jpg);
+        background-size: cover;
+        height: auto;
+    }
+}
+.social-media{
+    background: rgb(255, 255, 255);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.social-media img{
+    width: 45px;
+    border-radius: 14px;
+    margin: 10px;
+    cursor: pointer;
+}
+.hr-line{
+    width: 95%;
+    color: black;
+  
+}
+.hr-div{
+    background: white;
+    display: flex;
+    justify-content: center;
+   
+  
+}
+.details{
+    background: white;
+    color: rgba(0, 0, 0, 0.499);
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    
+    
+}
+.details-box{
+    width: 20%;
+   
+}
+.details p{
+    margin:4px;
+    cursor: pointer;
+    
+}
+.header-text{
+    font-weight:700 ;
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.587);
+}
+.last-para{
+    background: white;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.499);
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-left: 50px;
+}
+.details-sm{
+    display: flex;
+    justify-content: center;
+}
+.details-sm p{
+    padding: 5px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.575);
+    cursor: pointer;
+}
+.sm-para{
+    display: flex;
+    justify-content: center;
+}
+
+#searchred{
+    height: 60px;
+    width: 400px;
+    background: rgb(238, 77, 77);
+    border: none;
+    position: absolute;
+    right: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(244, 204, 204);
+    
+   
+}
+::placeholder{
+    color: rgb(244, 204, 204);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.searchbar{
+    width: 250px;
+    background: rgba(255, 0, 0, 0);
+    border: none;
+    margin-top: 8px;
+    outline: none;
+    color: rgb(244, 204, 204);
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 20px;
+    
+    
+}
+.searchbutton{
+    background: rgb(238, 207, 207);
+    border: none;
+    font-size: 14px;
+    border-radius: 19px;
+    padding: 5px 25px;
+    color: rgb(213, 23, 23);
+    right: 40px;
+    top: 14px;
+    cursor: pointer;
+
+}
+.searchbutton:hover{
+    background: rgb(251, 251, 251);
+}
+#searchsm{
+    background: rgb(227, 73, 73);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    font-weight: 700;
+    height: 45px;
+    width: 360px;
+    padding: 5px;
+   
+}
+.searchbarsm{
+   background: rgba(218, 14, 14, 0);
+   border: none;
+   outline: none;
+   font-size: 18px;
+   padding-left: 20px;
+   color: rgb(232, 164, 164);
+   font-weight: 700;
+
+}
+.searchbarsm::placeholder{
+    font-size: 20px;
+}
+.searchbuttonsm{
+    border: none;
+    background: rgb(234, 157, 157);
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: brown;
+}
+#menubar{
+    position: absolute;
+    left: 8%;
+   
+}
+#menubar p{
+    background: rgb(242, 68, 68);
+    color: rgb(244, 204, 204);
+    width: 165px;
+    padding: 10px 15px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+#menubar p:hover{
+    background: rgb(248, 100, 100);
+}
+
+    
+
